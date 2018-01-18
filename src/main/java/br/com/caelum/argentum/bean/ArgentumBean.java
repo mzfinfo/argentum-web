@@ -35,6 +35,7 @@ public class ArgentumBean implements Serializable {
 	private Date filtroDataDe;
 	private Date filtroDataAte;
 
+	//teste de github - branch desenvolvimento...
 	public ArgentumBean() {
 		this.negociacoes = new ClienteWebService().getNegociacoes();
 		geraGrafico();
